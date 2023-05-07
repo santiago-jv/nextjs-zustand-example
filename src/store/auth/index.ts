@@ -10,7 +10,7 @@ const useAuthStore = create<AuthStore & AuthActions>((set) => ({
       user: await login(data),
     });
   },
-  logout: () => set(() => ({ user: null, token: null })),
+  logout: () => set(() => ({ user: null})),
 }));
 
 export default useAuthStore;

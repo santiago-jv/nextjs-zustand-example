@@ -4,9 +4,7 @@ import "./globals.css";
 import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata = {
-  title: {
-    template: '%s | Acme',
-  },
+  title: 'Coffee'
 };
 
 export default function RootLayout({

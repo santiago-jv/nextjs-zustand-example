@@ -1,7 +1,7 @@
 import { LoginRequest } from "@/api/requests/login.request";
 import { GeneralResponse } from "@/api/responses/general.response";
 import { LoginResponse } from "@/api/responses/login.response";
-import { httpApi } from "@/api/services/http-instance";
+import { httpApi } from "@/api/http-api";
 import { DefaultValues } from "@/global.constants";
 import { User } from "@/models/user.model";
 

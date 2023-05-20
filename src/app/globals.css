@@ -38,6 +38,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --main-bg-color: #373737;
+  --main-title-color:#0080A9;
+
 }
 
 @media (prefers-color-scheme: dark) {
